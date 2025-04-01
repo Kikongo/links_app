@@ -58,3 +58,12 @@ link = Table(
 )
 
    ```
+
+### Запуск тестов
+
+   ```
+$ pytest -v
+
+$ locust -f tests/test_load.py --host=http://localhost:8000
+
+   ```
